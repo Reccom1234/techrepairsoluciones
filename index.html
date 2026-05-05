@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reparación de Computadores en Bogotá | TechRepair Soluciones</title>
+
+<meta name="description" content="Reparación de computadores en Bogotá y reparación de impresoras Bogotá. Servicio rápido, diagnóstico técnico y mantenimiento profesional.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* =====================
+RESET
+=====================*/
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f7fb;
+color:#222;
+}
+
+/* =====================
+NAVBAR
+=====================*/
+nav{
+position:sticky;
+top:0;
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+z-index:1000;
+}
+
+.logo{
+font-weight:700;
+font-size:22px;
+color:#0d6efd;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#0d6efd;
+}
+
+/* =====================
+HERO
+=====================*/
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0d6efd,#092a66);
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+max-width:600px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:14px 25px;
+border-radius:30px;
+border:none;
+margin:5px;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn-whatsapp{
+background:#25D366;
+color:white;
+}
+
+.btn-service{
+background:white;
+color:#0d6efd;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+/* =====================
+SECTIONS
+=====================*/
+section{
+padding:70px 8%;
+text-align:center;
+}
+
+h2{
+font-size:32px;
+margin-bottom:40px;
+color:#0d6efd;
+}
+
+/* =====================
+CARDS
+=====================*/
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* =====================
+NOSOTROS
+=====================*/
+.about{
+max-width:800px;
+margin:auto;
+line-height:1.7;
+}
+
+/* =====================
+TESTIMONIOS
+=====================*/
+.testimonial{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+font-style:italic;
+}
+
+/* =====================
+CONTACTO
+=====================*/
+form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,textarea{
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+background:#0d6efd;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* =====================
+MAPA
+=====================*/
+iframe{
+width:100%;
+height:350px;
+border:none;
+margin-top:30px;
+border-radius:12px;
+}
+
+/* =====================
+FOOTER
+=====================*/
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+/* =====================
+WHATSAPP FLOAT
+=====================*/
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+.hero h1{
+font-size:30px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<div class="logo">TechRepair Soluciones</div>
+<ul>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#beneficios">Beneficios</a></li>
+<li><a href="#nosotros">Nosotros</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Reparación Tecnológica Rápida y Confiable en Bogotá</h1>
+<p>Soluciones profesionales para computadores e impresoras con atención rápida y diagnóstico técnico especializado.</p>
+
+<a href="https://wa.me/573183291948" class="btn btn-whatsapp">Contáctanos por WhatsApp</a>
+<a href="#contacto" class="btn btn-service">Solicitar Servicio</a>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+<h2>Servicios</h2>
+<div class="grid">
+
+<div class="card">Reparación de computadores</div>
+<div class="card">Reparación de impresoras</div>
+<div class="card">Cambio de bisagras</div>
+<div class="card">Mantenimiento preventivo</div>
+<div class="card">Diagnóstico técnico</div>
+
+</div>
+</section>
+
+<!-- BENEFICIOS -->
+<section id="beneficios">
+<h2>Beneficios</h2>
+<div class="grid">
+
+<div class="card">Servicio rápido</div>
+<div class="card">Garantía real</div>
+<div class="card">Atención en Bogotá</div>
+
+</div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+<h2>Nosotros</h2>
+<p class="about">
+TechRepair Soluciones ofrece servicio técnico especializado enfocado en brindar soluciones rápidas,
+claras y confiables. Nuestro objetivo es ayudar a cada cliente a recuperar su equipo en el menor tiempo posible,
+con atención directa y soluciones reales.
+</p>
+</section>
+
+<!-- TESTIMONIOS -->
+<section>
+<h2>Opiniones de Clientes</h2>
+
+<div class="grid">
+
+<div class="testimonial">
+"Excelente servicio, repararon mi portátil el mismo día. Muy recomendados."
+<br><strong>- Carlos M.</strong>
+</div>
+
+<div class="testimonial">
+"Mi impresora volvió a funcionar perfectamente. Atención rápida y clara."
+<br><strong>- Laura G.</strong>
+</div>
+
+<div class="testimonial">
+"Buen servicio técnico y precios justos. Volvería sin duda."
+<br><strong>- Andrés R.</strong>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+<h2>Contacto</h2>
+
+<form>
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo">
+<textarea placeholder="Mensaje"></textarea>
+<button type="submit">Enviar Mensaje</button>
+</form>
+
+<p><strong>Teléfono:</strong> <a href="tel:+573183291948">+57 3183291948</a></p>
+<p><strong>Email:</strong> <a href="mailto:techrepairsoluciones@gmail.com">techrepairsoluciones@gmail.com</a></p>
+<p><strong>Dirección:</strong> Cra 70 C #102 A 51, Bogotá, Colombia</p>
+
+<iframe src="https://maps.google.com/maps?q=Bogota&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>TechRepair Soluciones © 2026</p>
+<p>Bogotá - Colombia</p>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp" href="https://wa.me/573183291948">💬</a>
+
+</body>
+</html>
